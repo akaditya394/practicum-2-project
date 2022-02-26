@@ -23,41 +23,41 @@
 .section_profile {
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: 1px solid purple;
+  border: 2px solid purple;
 }
 
 .section_profile:hover {
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .section_tweets {
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: 1px solid purple;
+  border: 2px solid purple;
 }
 
 .section_tweets:hover {
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .section_posts {
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: 1px solid purple;
+  border: 2px solid purple;
 }
 
 .section_posts:hover {
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .section_logout {
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: 1px solid purple;
+  border: 2px solid purple;
 }
 
 .section_logout:hover {
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .sections_lower {

@@ -12,12 +12,12 @@ const App = () => {
         <Welcome />
         <div className="take-me-to">
           <div className="sections_upper">
-            <Section className="section_profile animate__animated animate__flipInX" />
-            <Section className="section_tweets animate__animated animate__flipInX" />
+            <Section className="section_profile animate__animated animate__fadeIn animate__slower" />
+            <Section className="section_tweets animate__animated animate__fadeIn animate__slower" />
           </div>
           <div className="sections_lower">
-            <Section className="section_posts animate__animated animate__flipInX" />
-            <Section className="section_logout animate__animated animate__flipInX" />
+            <Section className="section_posts animate__animated animate__fadeIn animate__slower" />
+            <Section className="section_logout animate__animated animate__fadeIn animate__slower" />
           </div>
         </div>
       </div>
