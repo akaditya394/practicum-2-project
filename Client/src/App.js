@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
 import Section from "../src/components/welcome page components/Section";
+import Welcome from "./components/welcome page components/Welcome";
 
 const App = () => {
   return (
     <div className="parent">
+      <Welcome />
       <div className="take-me-to">
         <div className="sections_upper">
           <Section className="section_profile" />
