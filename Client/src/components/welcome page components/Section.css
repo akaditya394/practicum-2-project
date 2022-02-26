@@ -2,7 +2,8 @@
   height: 10rem;
   margin: 0.5rem;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 0.70rem;
+  color:purple;
 }
 
 .section_title,
@@ -12,7 +13,6 @@
 
 h1 {
   font-weight: 400;
-  color: purple;
 }
 
 p {
