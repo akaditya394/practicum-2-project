@@ -1,0 +1,46 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.take-me-to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.sections_upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  
+}
+
+.section_profile {
+  width: 40%;
+  background-color:#270082;
+}
+
+.section_tweets {
+  width: 60%;
+  background-color:#7A0BC0;
+}
+
+.section_posts {
+  width: 60%;
+  background-color:#EEEEEE;
+}
+
+.section_logout {
+  width: 40%;
+  background-color:#FA58B6;
+}
+
+.sections_lower {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}

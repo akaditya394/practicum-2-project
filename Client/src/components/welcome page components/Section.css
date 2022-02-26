@@ -1,5 +1,8 @@
 .section_box{
-    width: 100%;
-    height: 5.5rem;
-    background-color: purple;
+    /* width: 100%; */
+    height: 10rem;
+    /* background-color: purple; */
+    margin:0.5rem;
+    border-radius:1rem;
+    padding:0.5rem;
 }
