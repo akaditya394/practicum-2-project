@@ -3,7 +3,7 @@ import "./Welcome.css";
 
 const Welcome = () => {
   return (
-    <div>
+    <div className="animate__animated animate__flipInX">
       <h1 className="welcome-message">Welcome...</h1>
     </div>
   );
