@@ -24,6 +24,9 @@
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
 
 .section_profile:hover {
@@ -34,6 +37,9 @@
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
 
 .section_tweets:hover {
@@ -44,6 +50,9 @@
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
 
 .section_posts:hover {
@@ -54,6 +63,9 @@
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
 
 .section_logout:hover {
