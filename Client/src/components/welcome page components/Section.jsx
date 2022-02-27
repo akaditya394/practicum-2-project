@@ -1,6 +1,5 @@
 import React from "react";
 import "./Section.css";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Button from "../UI/Button";
 const Section = (props) => {
   return (
@@ -13,7 +12,7 @@ const Section = (props) => {
       </div>
       <div>
         <Button>
-          <ArrowForwardIosIcon />
+          Go
         </Button>
       </div>
     </div>

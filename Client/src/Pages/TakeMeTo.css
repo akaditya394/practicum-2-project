@@ -1,0 +1,96 @@
+.welcome-page-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .take-me-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .sections_upper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .section_profile {
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    transition: background-color 0.5s;
+  }
+  
+  .section_profile:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color:purple;
+      color: #fff;
+      border:2px solid #fff;
+  }
+  
+  .section_tweets {
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    transition: background-color 0.5s;
+  }
+  
+  .section_tweets:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color:purple;
+      color: #fff;
+      border:2px solid #fff;
+  }
+  
+  .section_posts {
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    transition: background-color 0.5s;
+  }
+  
+  .section_posts:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color:purple;
+      color: #fff;
+      border:2px solid #fff;
+  }
+  
+  .section_logout {
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    transition: background-color 0.5s;
+  }
+  
+  .section_logout:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color:purple;
+      color: #fff;
+      border:2px solid #fff;
+  }
+  
+  .sections_lower {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+  
