@@ -1,5 +1,7 @@
 import React from "react";
 import "./Section.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import Button from "../UI/Button";
 const Section = (props) => {
   return (
@@ -12,7 +14,7 @@ const Section = (props) => {
       </div>
       <div>
         <Button>
-          Go
+          <FontAwesomeIcon icon={faAngleRight} />
         </Button>
       </div>
     </div>
