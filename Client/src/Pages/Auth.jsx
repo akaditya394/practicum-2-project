@@ -1,10 +1,9 @@
 import React from "react";
-import "./Login.css";
+import "./Auth.css";
 import Button from "../components/UI/Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from "../components/welcome page components/Navbar";
 
-const Login = () => {
+const Auth= () => {
   return (
     <div>
       <Navbar />
@@ -15,7 +14,7 @@ const Login = () => {
         <div className="loginsignup_auth">
           <div>
             <Button>
-              <FontAwesomeIcon icon="fa-brands fa-google" /> Sign up with Google
+             Sign up with Google
             </Button>
           </div>
           <div>
@@ -27,4 +26,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Auth;

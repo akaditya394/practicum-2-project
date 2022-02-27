@@ -2,13 +2,13 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import TakeMeTo from "./Pages/TakeMeTo";
-import Login from "./Pages/Login";
+import Auth from "./Pages/Auth";
 
 const App = () => {
   return (
     <Routes>
-    <Route path="/" element={<TakeMeTo />} />
-    <Route path="/login" element={<Login />} />
+    <Route path="/" element={<Auth />} />
+    <Route path="/takemeto" element={<TakeMeTo />} />
   </Routes>
   );
 };
