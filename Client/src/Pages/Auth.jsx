@@ -1,24 +1,27 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import "./Auth.css";
 import Button from "../components/UI/Button";
 import Navbar from "../components/welcome page components/Navbar";
 
-const Auth= () => {
+const Auth = () => {
   return (
     <div>
       <Navbar />
       <div className="login_parent">
         <div className="loginsignup_message">
-          <h1 className="login_or_signup">login or signup...</h1>
+          <h1 className="login_or_signup animate__animated animate__fadeIn animate__slower">login or signup...</h1>
         </div>
-        <div className="loginsignup_auth">
+        <div className="loginsignup_auth animate__animated animate__fadeIn animate__slower">
           <div>
-            <Button>
-             Sign up with Google
-            </Button>
+            <Link to="/takemeto">
+              <Button>Sign up with Google</Button>
+            </Link>
           </div>
           <div>
-            <Button>Login with Google</Button>
+            <Link to="/takemeto">
+              <Button>Login with Google</Button>
+            </Link>
           </div>
         </div>
       </div>
