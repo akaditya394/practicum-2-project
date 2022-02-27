@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: space-around;
     font-family: "Montserrat", sans-serif;
-    height: 100vh;
+    height: 80vh;
 }
 
-h1{
+.login_or_signup{
     font-size: 5rem;
     color: purple;
 }

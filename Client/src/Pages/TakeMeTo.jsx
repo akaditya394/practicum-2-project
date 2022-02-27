@@ -2,7 +2,7 @@ import React from 'react';
 import "./TakeMeTo.css";
 import Section from "../components/welcome page components/Section";
 import Welcome from "../components/welcome page components/Welcome";
-import Navbar from "../components/UI/Button";
+import Navbar from "../components/welcome page components/Navbar";
 
 const TakeMeTo = () => {
   return (
