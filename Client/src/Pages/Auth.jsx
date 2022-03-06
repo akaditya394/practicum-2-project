@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Auth.css";
 import Button from "../components/UI/Button";
 import Navbar from "../components/welcome page components/Navbar";

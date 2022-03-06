@@ -1,14 +1,16 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import "./App.css";
 import TakeMeTo from "./Pages/TakeMeTo";
 import Auth from "./Pages/Auth";
+import MyTweets from "./Pages/MyTweets";
 
 const App = () => {
   return (
     <Routes>
     <Route path="/" element={<Auth />} />
     <Route path="/takemeto" element={<TakeMeTo />} />
+    <Route path="/mytweets" element={<MyTweets />} />
   </Routes>
   );
 };
