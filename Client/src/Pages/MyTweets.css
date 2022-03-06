@@ -1,23 +1,43 @@
-.mytweets_main{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:center;
+.mytweets_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.mytweets_left_container{
-    height:100vh;
-    width:25%;
-    background-color:red;
-}
-.mytweets_middle_container{
-    height:100vh;
-    width:50%;
-    background-color:blue;
+.mytweets_left_container {
+  height: 100vh;
+  width: 25%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.mytweets_right_container{
-    height:100vh;
-    width:25%;
-    background-color:green;
+.mytweets_left_container_buttons{
+    height:20rem;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:space-between;
+    text-align:left;
+    margin-right: 6rem;
+
+}
+
+.my_tweets_button{
+    font-size:1.25rem;
+}
+
+.mytweets_middle_container {
+  height: 100vh;
+  width: 50%;
+  background-color: blue;
+}
+
+.mytweets_right_container {
+  height: 100vh;
+  width: 25%;
+  background-color: green;
 }
