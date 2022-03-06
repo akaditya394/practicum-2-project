@@ -15,6 +15,7 @@
   align-items: center;
   border: 1px solid purple;
   border-top: none;
+  border-bottom: none;
   border-left: none;
 }
 
@@ -32,7 +33,7 @@
   font-size: 1.25rem;
   border: 2px solid purple;
   height: 3rem;
-  width: 10rem;
+  width: 8rem;
   background-color: white;
   transition: background-color 0.5s;
   display: flex;
@@ -75,4 +76,5 @@
   border: 1px solid purple;
   border-top: none;
   border-right: none;
+  border-bottom: none;
 }

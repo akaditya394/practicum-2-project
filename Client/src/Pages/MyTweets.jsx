@@ -36,6 +36,11 @@ const MyTweets = () => {
         </div>
         <div className="mytweets_middle_container">
             <TweetOrPost />
+            <TweetOrPost />
+            <TweetOrPost />
+            <TweetOrPost />
+            <TweetOrPost />
+            <TweetOrPost />
         </div>
         <div className="mytweets_right_container"></div>
       </div>
