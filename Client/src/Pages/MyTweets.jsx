@@ -10,10 +10,10 @@ const MyTweets = () => {
       <div className="mytweets_main">
         <div className="mytweets_left_container">
           <div className="mytweets_left_container_buttons">
-            <Button className="my_tweets_button">Home</Button>
-            <Button className="my_tweets_button">My Tweets</Button>
-            <Button className="my_tweets_button">Posts</Button>
-            <Button className="my_tweets_button">Log out</Button>
+            <Button className="my_tweets_button">home</Button>
+            <Button className="my_tweets_button">my tweets</Button>
+            <Button className="my_tweets_button">posts</Button>
+            <Button className="my_tweets_button">log out</Button>
           </div>
         </div>
         <div className="mytweets_middle_container"></div>

@@ -8,36 +8,47 @@
 .mytweets_left_container {
   height: 100vh;
   width: 25%;
-  background-color: red;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border: 2px solid purple;
+  border-top: none;
 }
 
-.mytweets_left_container_buttons{
-    height:20rem;
-    display: flex;
-    flex-direction:column;
-    align-items:flex-start;
-    justify-content:space-between;
-    text-align:left;
-    margin-right: 6rem;
-
+.mytweets_left_container_buttons {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  margin-right: 6rem;
+  
 }
 
-.my_tweets_button{
-    font-size:1.25rem;
+.my_tweets_button {
+  font-size: 1.25rem;
+  border: 2px solid purple;
+  height:3rem;
+  width:10rem;
+  background-color:white;
+  transition: background-color 0.5s;
+}
+
+.my_tweets_button:hover {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
 }
 
 .mytweets_middle_container {
   height: 100vh;
   width: 50%;
-  background-color: blue;
 }
 
 .mytweets_right_container {
   height: 100vh;
   width: 25%;
-  background-color: green;
 }
