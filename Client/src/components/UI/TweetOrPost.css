@@ -1,0 +1,36 @@
+.tweetorpost_main {
+  width: 100%;
+  background-color: white;
+  border: 1px solid purple;
+  border-left: none;
+  border-right: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweetorpost_upper {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweetorpost_lower {
+  height: 40%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tworpo_comment,
+.tworpo_retweet,
+.tworpo_heart {
+  width: 33%;
+}
