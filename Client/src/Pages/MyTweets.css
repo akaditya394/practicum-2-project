@@ -1,0 +1,23 @@
+.mytweets_main{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.mytweets_left_container{
+    height:100vh;
+    width:25%;
+    background-color:red;
+}
+.mytweets_middle_container{
+    height:100vh;
+    width:50%;
+    background-color:blue;
+}
+
+.mytweets_right_container{
+    height:100vh;
+    width:25%;
+    background-color:green;
+}
