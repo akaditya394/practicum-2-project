@@ -13,8 +13,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid purple;
+  border: 1px solid purple;
   border-top: none;
+  border-left: none;
 }
 
 .mytweets_left_container_buttons {
@@ -51,4 +52,7 @@
 .mytweets_right_container {
   height: 100vh;
   width: 25%;
+  border: 1px solid purple;
+  border-top: none;
+  border-right: none;
 }

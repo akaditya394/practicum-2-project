@@ -2,6 +2,13 @@ import React from "react";
 import "./MyTweets.css";
 import Navbar from "../components/welcome page components/Navbar";
 import Button from "../components/UI/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faImages,
+  faArrowRightFromBracket,
+} from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const MyTweets = () => {
   return (
@@ -10,10 +17,19 @@ const MyTweets = () => {
       <div className="mytweets_main">
         <div className="mytweets_left_container">
           <div className="mytweets_left_container_buttons">
-            <Button className="my_tweets_button">home</Button>
-            <Button className="my_tweets_button">my tweets</Button>
-            <Button className="my_tweets_button">posts</Button>
-            <Button className="my_tweets_button">log out</Button>
+            <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
+              <FontAwesomeIcon icon={faHouse} /> <span>home</span>
+            </Button>
+            <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
+              <FontAwesomeIcon icon={faTwitter} /> <span>my tweets</span>
+            </Button>
+            <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
+              <FontAwesomeIcon icon={faImages} /> <span>posts</span>
+            </Button>
+            <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
+              <FontAwesomeIcon icon={faArrowRightFromBracket} />{" "}
+              <span>log out</span>
+            </Button>
           </div>
         </div>
         <div className="mytweets_middle_container"></div>
