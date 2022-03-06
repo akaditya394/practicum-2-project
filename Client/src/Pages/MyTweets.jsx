@@ -18,10 +18,10 @@ const MyTweets = () => {
         <div className="mytweets_left_container">
           <div className="mytweets_left_container_buttons">
             <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
-              <FontAwesomeIcon icon={faHouse} /> <span>home</span>
+              <FontAwesomeIcon icon={faHouse} /><span>home</span>
             </Button>
             <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
-              <FontAwesomeIcon icon={faTwitter} /> <span>my tweets</span>
+              <FontAwesomeIcon icon={faTwitter} /> <span>tweets</span>
             </Button>
             <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
               <FontAwesomeIcon icon={faImages} /> <span>posts</span>
@@ -31,6 +31,7 @@ const MyTweets = () => {
               <span>log out</span>
             </Button>
           </div>
+          <Button className="create_tweet_button">tweet</Button>
         </div>
         <div className="mytweets_middle_container"></div>
         <div className="mytweets_right_container"></div>
