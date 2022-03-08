@@ -1,0 +1,7 @@
+.createtweet_textarea{
+    font-family: "Montserrat", sans-serif;
+    border:1px solid purple;
+    outline:none;
+    padding:0.5rem;
+    border-radius:1rem;
+}
