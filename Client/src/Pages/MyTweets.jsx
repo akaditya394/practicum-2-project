@@ -3,6 +3,7 @@ import "./MyTweets.css";
 import Navbar from "../components/welcome page components/Navbar";
 import Button from "../components/UI/Button";
 import TweetOrPost from "../components/UI/TweetOrPost";
+import CreateTweet from "../components/UI/CreateTweet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -19,7 +20,8 @@ const MyTweets = () => {
         <div className="mytweets_left_container">
           <div className="mytweets_left_container_buttons">
             <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
-              <FontAwesomeIcon icon={faHouse} /><span>home</span>
+              <FontAwesomeIcon icon={faHouse} />
+              <span>home</span>
             </Button>
             <Button className="my_tweets_button animate__animated animate__fadeIn animate__slower">
               <FontAwesomeIcon icon={faTwitter} /> <span>tweets</span>
@@ -35,12 +37,13 @@ const MyTweets = () => {
           <Button className="create_tweet_button">tweet</Button>
         </div>
         <div className="mytweets_middle_container">
-            <TweetOrPost />
-            <TweetOrPost />
-            <TweetOrPost />
-            <TweetOrPost />
-            <TweetOrPost />
-            <TweetOrPost />
+          <CreateTweet />
+          <TweetOrPost />
+          <TweetOrPost />
+          <TweetOrPost />
+          <TweetOrPost />
+          <TweetOrPost />
+          <TweetOrPost />
         </div>
         <div className="mytweets_right_container"></div>
       </div>
