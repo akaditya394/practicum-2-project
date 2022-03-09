@@ -8,7 +8,7 @@ import {
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 
-const TweetOrPost = () => {
+const TweetOrPost = (props) => {
   return (
     <div>
       <div className="tweetorpost_main animate__animated animate__fadeInUp animate__slow">
@@ -27,31 +27,24 @@ const TweetOrPost = () => {
               <p className="tworpo_name">Aditya Kumar</p>
             </div>
             <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                feugiat semper erat ac semper. Mauris laoreet dolor id rhoncus
-                lobortis. Donec nec odio metus. Aenean pellentesque neque vel
-                diam interdum condimentum. Nam in orci ornare, eleifend ligula
-                vitae, tincidunt risus. Etiam at nibh lorem. Nam sed bibendum
-                est.
-              </p>
+              <p>{props.tweet}</p>
             </div>
           </div>
         </div>
         <div className="tweetorpost_lower">
           <div>
             <Button className="tworpo_comment">
-              <FontAwesomeIcon icon={faComment} />
+            {props.comments}  <FontAwesomeIcon icon={faComment} />
             </Button>
           </div>
           <div>
             <Button className="tworpo_retweet">
-              <FontAwesomeIcon icon={faRetweet} />
+            {props.retweets}  <FontAwesomeIcon icon={faRetweet} />
             </Button>
           </div>
           <div>
             <Button className="tworpo_heart">
-              <FontAwesomeIcon icon={faHeart} />
+            {props.likes}  <FontAwesomeIcon icon={faHeart} />
             </Button>
           </div>
         </div>

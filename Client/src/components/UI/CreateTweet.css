@@ -8,17 +8,21 @@
   outline: none;
   padding: 0.5rem;
   border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.10) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.10) 0px 8px 16px -8px;
 }
 
 .addtweet_button {
   height: 2rem;
   width: 5rem;
-  font-size:1rem;
+  font-size: 1rem;
   border-radius: 1rem;
   border: 2px solid purple;
   transition: background-color 0.5s;
   background-color: purple;
   color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.10) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.10) 0px 8px 16px -8px;
 }
 
 .addtweet_button:hover {

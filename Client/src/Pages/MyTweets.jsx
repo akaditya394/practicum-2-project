@@ -12,6 +12,16 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+const DUMMY_TWEETS = [
+  {
+    tweet:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat semper erat ac semper. Mauris laoreet dolor id rhoncus lobortis. Donec nec odio metus. Aenean pellentesque neque vel diam interdum condimentum. Nam in orci ornare, eleifend ligula vitae, tincidunt risus. Etiam at nibh lorem. Nam sed bibendum est.",
+    comments: "20",
+    retweets: "45",
+    likes: "65",
+  },
+];
+
 const MyTweets = () => {
   return (
     <div>
@@ -38,12 +48,12 @@ const MyTweets = () => {
         </div>
         <div className="mytweets_middle_container">
           <CreateTweet />
-          <TweetOrPost />
-          <TweetOrPost />
-          <TweetOrPost />
-          <TweetOrPost />
-          <TweetOrPost />
-          <TweetOrPost />
+          <TweetOrPost
+            tweet={DUMMY_TWEETS[0].tweet}
+            comments={DUMMY_TWEETS[0].comments}
+            retweets={DUMMY_TWEETS[0].retweets}
+            likes={DUMMY_TWEETS[0].likes}
+          />
         </div>
         <div className="mytweets_right_container"></div>
       </div>
