@@ -7,6 +7,7 @@ const CreateTweet = (props) => {
   const [tweetContent, setTweetContent] = useState("");
   const [tweetComments, setTweetComments] = useState("29");
   const [tweetLikes, setTweetLikes] = useState("29");
+  const [tweetRetweets, setTweetRetweets] = useState("29");
 
   const handleInputChange = (event) => {
     setTweetContent(event.target.value);
@@ -17,7 +18,8 @@ const CreateTweet = (props) => {
 
     const tweetData = {
       tweet: tweetContent,
-      commnets: tweetComments,
+      comments: tweetComments,
+      retweets: tweetRetweets,
       likes: tweetLikes,
       id: Math.random().toString,
     };

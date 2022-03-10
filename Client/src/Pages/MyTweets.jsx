@@ -33,6 +33,7 @@ const MyTweets = () => {
           tweet: enteredTweet.tweet,
           comments: enteredTweet.comments,
           likes: enteredTweet.likes,
+          retweets: enteredTweet.retweets,
           id: Math.random().toString(),
         },
       ];
@@ -71,6 +72,7 @@ const MyTweets = () => {
                 tweet={tweet.tweet}
                 comments={tweet.comments}
                 likes={tweet.likes}
+                retweets={tweet.retweets}
               />
             ))}
         </div>
