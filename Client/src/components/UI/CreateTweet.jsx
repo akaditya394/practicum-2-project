@@ -3,32 +3,50 @@ import { useState } from "react";
 import Button from "../UI/Button";
 import "./CreateTweet.css";
 
-const CreateTweet = () => {
-  const [tweetInputField, setTweetInputField] = useState();
+const CreateTweet = (props) => {
+  const [tweetContent, setTweetContent] = useState("");
+  const [tweetComments, setTweetComments] = useState("29");
+  const [tweetLikes, setTweetLikes] = useState("29");
+
   const handleInputChange = (event) => {
-    setTweetInputField(event.target.value);
+    setTweetContent(event.target.value);
   };
-  const handleAddTweet = (event) => {
+
+  const handleSubmit = (event) => {
     event.preventDefault();
-    setTweetInputField("");
+
+    const tweetData = {
+      tweet: tweetContent,
+      commnets: tweetComments,
+      likes: tweetLikes,
+      id: Math.random().toString,
+    };
+
+    props.onAddTweet(tweetData);
+
+    setTweetContent("");
   };
 
   return (
     <div>
       <div className="createtweet_main">
-        <form onSubmit={handleAddTweet}>
+        <form>
           <div>
             <textarea
               className="createtweet_textarea"
               placeholder="what's on your mind?"
               rows="6"
               cols="90"
-              value={tweetInputField}
+              value={tweetContent}
               onChange={handleInputChange}
             />
           </div>
           <div>
-            <Button type="submit" className="addtweet_button">
+            <Button
+              type="submit"
+              onClick={handleSubmit}
+              className="addtweet_button"
+            >
               tweet
             </Button>
           </div>
