@@ -11,7 +11,7 @@ import {
 const TweetOrPost = (props) => {
   return (
     <div>
-      <div className="tweetorpost_main animate__animated animate__fadeInUp animate__slow">
+      <div className="tweetorpost_main animate__animated animate__fadeInUp">
         <div className="tweetorpost_upper">
           <div className="tweetorpost_profileImage">
             <img
