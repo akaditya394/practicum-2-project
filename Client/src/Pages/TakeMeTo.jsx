@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./TakeMeTo.css";
 import Section from "../components/welcome page components/Section";
 import Welcome from "../components/welcome page components/Welcome";
@@ -29,7 +30,7 @@ const TakeMeTo = () => {
               description="lets go through your posts!"
               className="section_posts animate__animated animate__fadeIn animate__slower"
             />
-            <Section
+             <Section
               title="logout"
               description="see ya!"
               className="section_logout animate__animated animate__fadeIn animate__slower"
