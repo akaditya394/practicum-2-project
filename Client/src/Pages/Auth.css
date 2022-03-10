@@ -21,3 +21,20 @@
     align-items: center;
     justify-content:space-around;
 }
+
+.signup_button, .login_button {
+  width:auto;
+  height:auto;
+  padding:1rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: purple;
+  border: 1px solid purple;
+  transition: background-color 0.5s;
+}
+
+.signup_button:hover, .login_button:hover{
+    background-color: purple;
+    color: #fff;
+    border: 1px solid #fff;
+}
