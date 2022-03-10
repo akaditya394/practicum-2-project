@@ -13,11 +13,11 @@ const Auth = () => {
       <Navbar />
       <div className="login_parent">
         <div className="loginsignup_message">
-          <h1 className="login_or_signup animate__animated animate__fadeIn animate__slower">
+          <h1 className="login_or_signup animate__animated animate__fadeIn">
             login or signup...
           </h1>
         </div>
-        <div className="loginsignup_auth animate__animated animate__fadeIn animate__slower">
+        <div className="loginsignup_auth animate__animated animate__fadeIn">
           <div>
             <Link to="/takemeto">
               <Button className="signup_button">

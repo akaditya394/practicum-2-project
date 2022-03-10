@@ -16,24 +16,24 @@ const TakeMeTo = () => {
             <Section
               title="profile"
               description="your profile!"
-              className="section_profile animate__animated animate__fadeIn animate__slower"
+              className="section_profile animate__animated animate__fadeIn"
             />
             <Section
               title="tweets"
               description="have a look at your tweets"
-              className="section_tweets animate__animated animate__fadeIn animate__slower"
+              className="section_tweets animate__animated animate__fadeIn "
             />
           </div>
           <div className="sections_lower">
             <Section
               title="posts"
               description="lets go through your posts!"
-              className="section_posts animate__animated animate__fadeIn animate__slower"
+              className="section_posts animate__animated animate__fadeIn"
             />
              <Section
               title="logout"
               description="see ya!"
-              className="section_logout animate__animated animate__fadeIn animate__slower"
+              className="section_logout animate__animated animate__fadeIn"
             />
           </div>
         </div>
