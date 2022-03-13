@@ -39,6 +39,7 @@
   border:1px solid purple;
   background-color: white;
   border-radius: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .profile-name-bio {
@@ -47,6 +48,7 @@
   border:1px solid purple;
   background-color: white;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .profile-no-of-tweets,
@@ -58,4 +60,5 @@
   border:1px solid purple;
   background-color: white;
   border-radius:1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
