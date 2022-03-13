@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import "./TakeMeTo.css";
 import Section from "../components/GeneralComponents/Section";
 import Welcome from "../components/GeneralComponents/Welcome";
