@@ -7,6 +7,7 @@
 .profile-main {
   height: 30rem;
   width: 55%;
+  font-family: "Montserrat", sans-serif !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,15 +37,28 @@
 .profile-image-div {
   height: 10rem;
   width: 25%;
-  border:1px solid purple;
+  border:2px solid purple;
   background-color: white;
   border-radius: 10rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.profile-image-div:hover{
+    cursor: pointer;
+}
+
+.profile-image{
+    height:100%;
+    width:100%;
+    border-radius:10rem;
+}
+
 .profile-name-bio {
   height: 10rem;
   width: 70%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   border:1px solid purple;
   background-color: white;
   border-radius: 1rem;
@@ -60,5 +74,20 @@
   border:1px solid purple;
   background-color: white;
   border-radius:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.5s background-color;
+}
+
+.profile-no-of-tweets:hover,
+.profile-no-of-posts:hover,
+.profile-no-of-followers:hover,
+.profile-no-of-following:hover{
+    border:2px solid white;
+    background-color: purple;
+    color:white;
+    cursor:pointer;
 }
