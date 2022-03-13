@@ -6,7 +6,7 @@ import Navbar from "../components/GeneralComponents/Navbar";
 
 const TakeMeTo = () => {
   return (
-    <div className="parent">
+    <div className="parent animate__animated">
       <Navbar />
       <div className="welcome-page-flex">
         <Welcome />

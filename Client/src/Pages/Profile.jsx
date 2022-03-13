@@ -7,7 +7,7 @@ const Profile = () => {
     <Fragment>
       <Navbar />
       <div className="profile-container">
-        <div className="profile-main">
+        <div className="profile-main animate__animated animate__fadeIn">
           <div className="profile-upper">
             <div className="profile-image-div">
               <img
@@ -27,7 +27,7 @@ const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="profile-lower">
+          <div className="profile-lower animate__animated animate__fadeIn">
             <div className="profile-no-of-tweets">
               <h3>124</h3>
               <p>tweets</p>
