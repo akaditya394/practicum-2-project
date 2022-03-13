@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./MyTweets.css";
-import Navbar from "../components/welcome page components/Navbar";
+import Navbar from "../components/GeneralComponents/Navbar";
 import Button from "../components/UI/Button";
 import TweetOrPost from "../components/UI/TweetOrPost";
 import CreateTweet from "../components/UI/CreateTweet";

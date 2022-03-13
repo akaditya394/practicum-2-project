@@ -1,0 +1,61 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-main {
+  height: 30rem;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px solid purple;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.profile-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.profile-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.profile-image-div {
+  height: 10rem;
+  width: 25%;
+  border:1px solid purple;
+  background-color: white;
+  border-radius: 10rem;
+}
+
+.profile-name-bio {
+  height: 10rem;
+  width: 70%;
+  border:1px solid purple;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.profile-no-of-tweets,
+.profile-no-of-posts,
+.profile-no-of-followers,
+.profile-no-of-following {
+  height: 8rem;
+  width: 18%;
+  border:1px solid purple;
+  background-color: white;
+  border-radius:1rem;
+}
