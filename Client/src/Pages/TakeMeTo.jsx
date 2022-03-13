@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./TakeMeTo.css";
-import Section from "../components/welcome page components/Section";
-import Welcome from "../components/welcome page components/Welcome";
-import Navbar from "../components/welcome page components/Navbar";
+import Section from "../components/GeneralComponents/Section";
+import Welcome from "../components/GeneralComponents/Welcome";
+import Navbar from "../components/GeneralComponents/Navbar";
 
 const TakeMeTo = () => {
   return (

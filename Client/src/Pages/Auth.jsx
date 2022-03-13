@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Auth.css";
 import Button from "../components/UI/Button";
-import Navbar from "../components/welcome page components/Navbar";
+import Navbar from "../components/GeneralComponents/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
