@@ -9,12 +9,10 @@ const Notification = (props) => {
           <img src={props.imageAdd} alt={props.altText} />
         </div>
         <div className="notif-middle">
-          <span>
-            <b>{props.notif}</b>
-          </span>
+          <p><b>{props.notif}</b></p>
         </div>
         <div className="notif-right">
-          <span>{props.time}</span>
+          <p>{props.time}</p>
         </div>
       </div>
     </Fragment>

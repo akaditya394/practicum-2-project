@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./Notifications.css";
 import Navbar from "../components/GeneralComponents/Navbar";
 import Button from "../components/UI/Button";
+import Notification from "../components/GeneralComponents/Notification";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -37,6 +38,12 @@ const Notifications = () => {
           <Button className="markasseen_button">mark as read</Button>
         </div>
         <div className="notifications_middle_container">
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
+        <Notification notif="lorem ipsum iske aage ka nahi malum" time="5:26 pm" />
         </div>
         <div className="notifications_right_container"></div>
       </div>
