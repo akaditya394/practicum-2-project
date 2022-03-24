@@ -5,6 +5,7 @@ import TakeMeTo from "./Pages/TakeMeTo";
 import Auth from "./Pages/Auth";
 import Profile from "./Pages/Profile";
 import MyTweets from "./Pages/MyTweets";
+import MyPosts from "./Pages/MyPosts";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Route path="/takemeto" element={<TakeMeTo />} />
     <Route path="/mytweets" element={<MyTweets />} />
     <Route path="/profile" element={<Profile />} />
+    <Route path="/myposts" element={<MyPosts />} />
   </Routes>
   );
 };
