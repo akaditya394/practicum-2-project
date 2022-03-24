@@ -1,0 +1,73 @@
+.notifications_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .notifications_left_container {
+    height: 100vh;
+    width: 25%;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.notifications_left_container_buttons {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 6rem;
+  }
+  
+  .notifications_button {
+    font-size: 1.25rem;
+    border: 2px solid purple;
+    height: 3rem;
+    width: 8rem;
+    background-color: white;
+    transition: background-color 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .notifications_button:hover {
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .markasseen_button {
+    font-size: 1.25rem;
+    border: 2px solid purple;
+    height: 3rem;
+    width: 10rem;
+    transition: background-color 0.5s;
+    background-color:purple;
+    color: #fff;
+    margin-right: 6rem;
+  }
+  
+  .markasseen_button:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+  }
+  
+  .notifications_middle_container {
+    height: 100vh;
+    width: 50%;
+  }
+  
+  .notifications_right_container {
+    height: 100vh;
+    width: 25%;
+  }
+  

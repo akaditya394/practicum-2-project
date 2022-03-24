@@ -1,0 +1,18 @@
+.notif-main{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.notif-left{
+    width:20%;
+}
+
+.notif-middle{
+    width:0%;
+}
+
+.notif-right{
+    width:20%;
+}

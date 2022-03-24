@@ -6,6 +6,7 @@ import Auth from "./Pages/Auth";
 import Profile from "./Pages/Profile";
 import MyTweets from "./Pages/MyTweets";
 import MyPosts from "./Pages/MyPosts";
+import Notifications from "./Pages/Notifications";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Route path="/mytweets" element={<MyTweets />} />
     <Route path="/profile" element={<Profile />} />
     <Route path="/myposts" element={<MyPosts />} />
+    <Route path="/notifications" element={<Notifications />} />
   </Routes>
   );
 };

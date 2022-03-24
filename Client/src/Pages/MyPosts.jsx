@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faImages,
+  faBell,
   faArrowRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -19,17 +20,18 @@ const MyPosts = () => {
           <div className="myposts_left_container_buttons">
             <Button className="my_posts_button animate__animated animate__fadeIn">
               <FontAwesomeIcon icon={faHouse} />
-              <span>home</span>
             </Button>
             <Button className="my_posts_button animate__animated animate__fadeIn">
-              <FontAwesomeIcon icon={faTwitter} /> <span>tweets</span>
+              <FontAwesomeIcon icon={faBell} />
             </Button>
             <Button className="my_posts_button animate__animated animate__fadeIn">
-              <FontAwesomeIcon icon={faImages} /> <span>posts</span>
+              <FontAwesomeIcon icon={faTwitter} />
+            </Button>
+            <Button className="my_posts_button animate__animated animate__fadeIn">
+              <FontAwesomeIcon icon={faImages} />
             </Button>
             <Button className="my_posts_button animate__animated animate__fadeIn">
               <FontAwesomeIcon icon={faArrowRightFromBracket} />{" "}
-              <span>log out</span>
             </Button>
           </div>
           <Button className="create_post_button">create post</Button>
